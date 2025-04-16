@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Publish_Subscribe",
+    "Projects": [
+      {
+        "Path": "RabbitMQTest\\RabbitMQPublish.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "RabbitMQSubscriber\\RabbitMQSubscriber.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

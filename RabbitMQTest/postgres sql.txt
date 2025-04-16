@@ -1,0 +1,38 @@
+postgres sql
+super user pass: postgres
+port: 5432
+Database Superuser: postgres
+
+Installation Directory: C:\Program Files\PostgreSQL\17
+Server Installation Directory: C:\Program Files\PostgreSQL\17
+Data Directory: C:\Program Files\PostgreSQL\17\data
+Database Port: 5432
+Database Superuser: postgres
+Operating System Account: NT AUTHORITY\NetworkService
+Database Service: postgresql-x64-17
+Command Line Tools Installation Directory: C:\Program Files\PostgreSQL\17
+pgAdmin4 Installation Directory: C:\Program Files\PostgreSQL\17\pgAdmin 4
+Stack Builder Installation Directory: C:\Program Files\PostgreSQL\17
+Installation Log: C:\Users\sakth\AppData\Local\Temp\install-postgresql.log
+
+docker run -d --name rabbitmq \ -p 5672:5672 \ -p 15672:15672 \ rabbitmq:3-management
+
+docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 \ rabbitmq:3-management
+
+docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0.9-management
+
+demo-queue
+
+Host=localhost;Port=5432;Username=postgres;Password=mysecretpassword;Database=mydb;
+
+Add-Migration InitialCreate -StartupProject MyApp.API -Project MyApp.Data
+Test1
+Test2
+Test3
+Test4
+Test5
+Test6
+Test7
+Test8
+Test9
+Test10
